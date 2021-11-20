@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Physics Calculators</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="./script.js" defer></script>
+        
+    </head>
+    <body>
+        <h1 id="title">Physics Calculators</h1>
+        <select id="calculators" onclick="update();">
+            <option value="Calculator-Choice">Choose a calculator!</option>
+            <option value="Gravitational-Force-Calculator">Gravitational Force Calculator</option>
+            <option value="Force-Calculator">Force Calculator</option>
+            <option value="Acceleration-Calculator">Acceleration Calculator</option>
+            <option value="Friction-Calculator">Friction Calculator</option>
+        </select>
+        <div class="calculators-grid">
+            <h3 id="input1header">Mass 1 (m)</h3>
+            <input type="hidden" id="input1"/>
+            <h3 id="input2header">Mass 2 (m)</h3>
+            <input type="hidden" id="input2"/>
+            <h3 id="input3header">Distance (R)</h3>
+            <input type="hidden" id="input3"/>
+            <h3 id="input4header">Distance (R)</h3>
+            <input type="hidden" id="input4"/>
+            <h3 id="input5header">Distance (R)</h3>
+            <input type="hidden" id="input5"/>
+        </div>
+        <br/><br/>
+        <button onclick="calc();">=</button>
+        <input type="hidden" id="result"/>
+        
+    </body>
+</html>
