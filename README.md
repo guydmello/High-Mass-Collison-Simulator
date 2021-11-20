@@ -1,2 +1,2 @@
-# High-Mass-Collison-Simulator
-This is a High-Mass-Collison-Simulator built using React.js
+# Physics Calculator
+This is a Physics calculator built using HTML, Javascript, CSS
