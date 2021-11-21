@@ -1,7 +1,7 @@
 # Physics Calculator
-This is a Physics calculator built using HTML, Javascript, CSS
+This is a Physics calculator built using HTML, Javascript, CSS deployed at https://guydmello.github.io/Physics-Calculator/
 
-Good Morning, we present to astrophysics themed calculators. These calculators feature Graviational Force, Force, Acceleration, and Friction Calculations.
+We present to astrophysics themed calculators. These calculators feature Graviational Force, Force, Acceleration, and Friction Calculations.
 These are tremendously useful for physiscts to easily calculate by adding inputs and reciving a correct calculation. 
 For this astro project we also added a space themed background and animations to enchance the UI and quality of life design.
 
