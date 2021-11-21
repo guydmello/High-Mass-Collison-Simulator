@@ -40,9 +40,9 @@ function update() {
         document.getElementById('input4').value = '';
         document.getElementById('input5').value = '';
 
-        document.getElementById('input1header').innerText = 'Mass 1 (m)';
-        document.getElementById('input2header').innerText = 'Mass 2 (m)';
-        document.getElementById('input3header').innerText = 'Distance (R)';
+        document.getElementById('input1header').innerText = 'Mass 1 (kg)';
+        document.getElementById('input2header').innerText = 'Mass 2 (kg)';
+        document.getElementById('input3header').innerText = 'Distance (m)';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
 
@@ -74,8 +74,8 @@ function update() {
         document.getElementById('input4').value = '';
         document.getElementById('input5').value = '';
 
-        document.getElementById('input1header').innerText = 'Mass (m)';
-        document.getElementById('input2header').innerText = 'Acceleration (a)';
+        document.getElementById('input1header').innerText = 'Mass (kg)';
+        document.getElementById('input2header').innerText = 'Acceleration (m/s^2)';
         document.getElementById('input3header').innerText = '';
         document.getElementById('input4header').innerText = '';
         document.getElementById('input5header').innerText = '';
